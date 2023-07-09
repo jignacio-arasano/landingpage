@@ -1,0 +1,176 @@
+@media (max-width:1600px) {
+    .tarjetas{
+        margin-bottom: 10%;
+    }
+
+
+}
+
+@media (max-width:1200px) {
+    .hero-section img{
+        display: none;
+    }
+    .hero-section{
+        width: 100%;
+
+    }
+    .hero-text{
+        max-width: 80%;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:5rem;
+        
+    }
+    h5.flex{
+        font-size: 3rem;
+    }
+    .flex ul a{
+        font-size: 2rem;
+    }
+    .flex span{
+        font-size: 10rem;
+    }
+    .footer img{
+        display: none;
+    }
+    
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+        
+      
+   
+
+}
+
+@media (max-width:1200px) {
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .tarjetas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10rem;
+      }
+      
+      .card {
+        margin-bottom: 10rem;
+      }
+      
+      
+      
+   
+
+}
+
+@media (max-width:900px) {  
+    .navbar-list {
+        position: absolute;
+        top: 40px;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        border: 2px solid white;
+        border-top: 0;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 0px 0px 15px 15px;
+        padding: 45px 30px;
+        align-items: flex-start;
+        display: none;
+      }
+    
+      .navbar-list a {
+        font-size: 18px;
+      }
+    
+      .menu-label {
+        display: flex;
+        cursor: pointer;
+        order: 22;
+      }
+    
+      .menu-label img {
+        height: 40px;
+        width: 50px;
+      }
+    
+      #menu-toggle:checked + .navbar-list {
+        display: flex;
+      }
+    
+      .hero-info {
+        
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+      }
+    
+      .hero-info h1 {
+        width: 90%;
+        max-width: 500px;
+      }
+    
+      .hero-card {
+        display: none;
+      }
+      #info h2 {
+        text-align: center;
+      }
+    
+      .info-cards-container {
+        max-width: 80%;
+        gap: 5rem;
+      }
+      .hero-section img{
+        display: none;
+        
+    }
+    
+    .svg{
+        height: 100%;
+    }
+    .title h1{
+        font-size: 3em;
+        color: beige;
+    }
+    .mision h3{
+        font-size: 1.5em;
+  
+    
+    }
+   
+    
+      
+      
+   
+
+}
+@media (max-width:650px) {
+    
+    ul a{
+        font-size: 0.6em;
+    }
+    img{
+        width: fit-content;
+        height: 1.8em;
+    }
+    .info3 span{
+        font-size:1em;
+    }
+    
+    
+      
+      
+   
+
+}
