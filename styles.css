@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    background-color: rgb(97, 61, 61);
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 10%;
+}
+.navbar ul{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+}
+.navbar ul a{
+    font-size: 1em;
+    color: aliceblue;
+}
+.hero img{
+    width: 5em;
+    height: 5em;
+}
+.svg img{
+    width: 5em;
+}
+#menu-toggle,
+.menu-label{
+    display: none;
+}
+
+.hero-section{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.hero-img{
+    width: 20%;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.title h1{
+    font-size: 4.5em;
+}
+.mision h3{
+    font-size: 1.5em;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+.enlace1 a{
+    
+    font-size: 1em;
+   
+    color: aliceblue;
+}
+.enlace2 a{
+    
+    font-size: 1em;
+   
+    color: black;
+}
+.enlace1{
+    padding: 1.2%;
+    border-radius: 30%;
+    background-color: black;
+}
+.enlace2{
+    padding: 1.2%;
+    border-radius: 30%;
+    background-color: aliceblue;
+}
+.texto-presentacion{
+    width: 90%;
+    margin: auto;
+}
+.texto-presentacion p{
+    font-size: 1.5em;
+}
+
+main{
+    width: 100%;
+    
+}
+.products{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+    justify-content: center;
+   
+    margin: auto;
+}
+.cont-prod{
+    width: 20em ;
+    height: 25em;
+    
+    
+    
+    
+    
+}
+.img{
+    width: 12.5em;
+    height: 15em;
+    
+    margin: auto;
+    position: static;
+    border-radius: 10%;
+}
+.text{
+    position: relative;
+    top: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+
+}
+.text h3{
+    padding: 0.08em;
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+.img{
+   
+        background-image: url('creaturutina.webp');
+        background-size: cover;
+        background-position: center;
+}
+
+
+footer{
+    background-color: rgb(110, 102, 102);
+    padding: 2em;
+}
+.footer{
+    background-color: rgb(110, 102, 102);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: flex-start;
+}
+.imgfooter{
+    width: 15%;
+    
+}
+.info1,
+.info2,
+.info3{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  
+}
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.socials-list ul{
+    display: flex;
+    gap: 25%;
+       
+}
+.socials-list ul img{
+    width: 250%;
+}
+.footer ul{
+    line-height: 150%;
+}
+.footer a{
+    font-size: 120%;
+}
+.footer h5{
+    font-size: 160%;
+}

@@ -1,0 +1,71 @@
+@media (max-width:782px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        
+    }
+    .info1 span{
+        color: rgb(110, 102, 102);
+    }
+    
+
+    .imgfooter{
+        order: 3;
+    }
+    .hero-section img{
+        display: none;
+    }
+    ul.navbar-list {
+        position: absolute;
+        top: 83px;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        border: 2px solid white;
+        border-top: 0;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 0px 0px 15px 15px;
+        padding: 45px 30px;
+        align-items: flex-start;
+        display: none;
+      }
+    
+      .navbar-list a {
+        font-size: 18px;
+      }
+    
+      .menu-label {
+        display: flex;
+        cursor: pointer;
+        order: 22;
+        align-content: center;
+      }
+
+      label.menu-label{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .menu-label img {
+        height: 60px;
+        width: 60px;
+        display: flex;
+      }
+    
+      #menu-toggle:checked + .navbar-list {
+        display: flex;
+      }
+    
+      .title h1{
+        font-size: 3em;
+      }
+      .mision h3{
+        font-size: 1.2;
+      }
+    
+    
+
+
+}
