@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 5em;
+    justify-content: end;
     background-color: rgb(97, 61, 61);
 }
 .navbar{
@@ -118,6 +119,9 @@ main{
 .cont-prod{
     width: 20em ;
     height: 25em;
+    padding: 2em;
+    border-radius: 10%;
+    background-color: rgb(114, 110, 110);
     
     
     
@@ -137,7 +141,7 @@ main{
     top: 90%;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 0.5em;
     justify-content: center;
     align-items: center;
 

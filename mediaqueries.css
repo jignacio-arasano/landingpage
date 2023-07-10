@@ -5,9 +5,17 @@
         gap: 2em;
         
     }
+    section.footer{
+      width: 40%;
+      justify-content: flex-start;
+      margin-left: 35%;
+    }
     .info1 span{
         color: rgb(110, 102, 102);
     }
+    .info1,
+    .info2,
+    .info3 {align-self: flex-start;}
     
 
     .imgfooter{
@@ -60,12 +68,25 @@
     
       .title h1{
         font-size: 3em;
+        text-align: center;
       }
       .mision h3{
         font-size: 1.2;
+        text-align: center;
       }
     
     
+
+
+}
+
+@media (min-width:1636px) {
+  .products{
+    width: 80%;
+    gap: 6em;
+    
+}
+
 
 
 }
